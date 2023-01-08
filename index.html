@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Tomas Hazmuka">
+
+    <link rel="icon" type="image/png" href="/images/favicon.png"/>
+
+    <title>Stopwatch</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+
+
+<body>
+    
+
+    <div id="left">
+        <div class="bolt"><a href="https://oxygenadvantage.com/measure-bolt/">The BOLT score</a></div>
+        <div id="belt"></div>
+        <div class="stopwatch-container">
+            <div id="stopwatch">
+                <div id="clock">
+                    <div id="hr" class="digit">00</div>
+                    <div>:</div>
+                    <div id="min" class="digit">00</div>
+                    <div>:</div>
+                    <div id="sec" class="digit">00</div>
+                    <div>.</div>
+                    <div id="count" class="digit">00</div>
+                </div>
+                <div id="start" class="actions">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div title="Stopwatch restart" id="restart" class="actions">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="right">
+        <footer>
+            <div>Copyright by Hadzi</div>
+        </footer>
+    </div> -->
+
+    
+
+</body>
+
+<script src="./scripts/watch.js"></script>
+
+</html>
+
+<!-- https://codepen.io/onediv/pen/qBQrqK -->

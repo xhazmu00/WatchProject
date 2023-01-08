@@ -1,0 +1,141 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #d7d7d7;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+}
+
+#left{
+ width: 100%;
+    position: relative;
+    // border-right: 1px solid rgb(197, 197, 197);
+}
+  
+
+.bolt{
+    padding: 3rem;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    a:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+.stopwatch-container {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#stopwatch {
+    height: 300px;
+    width: 300px;
+    background-color: #030303;
+    border-radius: 2rem;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #eeeeee;
+}
+
+#belt {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30rem;
+    width: 10rem;
+    background: #a1a1a1;
+    position: absolute;
+    border-radius: .5rem;
+}
+
+#clock {
+    display: flex;
+    color: white;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 2.5rem;
+}
+
+.digit{
+    text-align: center;
+    width: 3rem;
+}
+
+#start {
+    top: 75%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 10rem;
+    height: 3rem;
+    width: 3rem;
+    background-color: green;
+
+    i {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 52%;
+        font-size: 1.5rem;
+        color: white;
+    }
+
+}
+
+#start:hover {
+    opacity: .7;
+    background-color: white;
+    i {
+      color: green;
+    } 
+}
+
+
+.actions:hover{
+    cursor: pointer;
+}
+
+#restart {
+    top: 75%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 10rem;
+    height: 3rem;
+    width: 3rem;
+    background-color: red;
+}
+
+#restart i {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 49%;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#restart:hover {
+    opacity: .7;
+    background-color: white;
+    i {
+      color: red;
+    } 
+}
